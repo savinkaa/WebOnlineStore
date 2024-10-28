@@ -1,4 +1,4 @@
-# UTS Web Pemrograman
+# WebOnlineStore
 
 Selamat datang! Proyek ini merupakan bagian dari Ujian Tengah Semester (UTS) untuk mata kuliah Pemrograman Web. Website ini dirancang untuk memberikan informasi tentang restoran dan minuman, dengan navigasi yang intuitif untuk meningkatkan pengalaman pengguna.
 
@@ -35,4 +35,3 @@ Website ini dibuat oleh tim kami:
 - Kukuh Adji
 
 Jika ada pertanyaan, Anda dapat menghubungi kami melalui email atau platform komunikasi lainnya yang telah disediakan.
-# WebOnlineStore

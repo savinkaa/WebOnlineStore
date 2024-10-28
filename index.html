@@ -46,4 +46,33 @@
         </div>
     </div>
 </body>
+<script>
+    // Ambil semua tautan dalam menu
+const menuLinks = document.querySelectorAll('.menu a');
+
+// Tambahkan event listener ke setiap tautan
+menuLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault(); // Mencegah perilaku default tautan
+
+        // Tambahkan kelas 'hidden' untuk memulai transisi
+        document.body.classList.add('hidden');
+
+        // Tunggu hingga transisi selesai sebelum pindah halaman
+        setTimeout(() => {
+            window.location.href = this.href; // Pindah ke URL tautan yang diklik
+        }, 500); // Durasi sama dengan durasi transisi CSS
+    });
+});
+</script>
+<style>
+    body {
+    margin: 0;
+    transition: opacity 0.2s ease;
+}
+
+.hidden {
+    opacity: 0;
+}
+</style>
 </html>

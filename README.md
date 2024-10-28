@@ -32,6 +32,6 @@ Kami mengundang Anda untuk melihat tampilan dari website kami di [sini](https://
 Website ini dibuat oleh tim kami:
 - Savinka Krizanantha J.A
 - Fathir Rahma Dhani
-- Kukuh Adji
+- Kukuh Adji Pramuktilaksono
 
 Jika ada pertanyaan, Anda dapat menghubungi kami melalui email atau platform komunikasi lainnya yang telah disediakan.

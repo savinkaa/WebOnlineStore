@@ -318,3 +318,23 @@
     color: #666;
 }
 
+/*untuk pages*/
+.pages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pages-list a {
+    background: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background 0.3s;
+}
+.pages-list a:hover {
+    background: #c82333;
+}
+
+

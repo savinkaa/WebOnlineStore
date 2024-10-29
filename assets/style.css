@@ -1,0 +1,320 @@
+/*ini buat index*/
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+        }
+    .headerindex {
+        background: url('latarBelakang.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        color: white;
+        position: relative;
+        }
+    .headerindex .overlayindex {
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+    .headerindex .contentindex {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        padding-top: 200px;
+        }
+    .headerindex .contentindex h1 {
+        font-size: 50px;
+        margin: 0;
+        }
+    .headerindex .contentindex p {
+        font-size: 18px;
+        margin: 20px 0;
+        }
+    .headerindex .contentindex .btn {
+        background: #1eb040;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        }
+    .navbarindex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: rgba(13, 13, 13, 0.7);
+        position: absolute;
+        width: 96.8%;
+        top: 0;
+        z-index: 3;
+        }
+    .navbarindex .logoindex {
+        font-size: 24px;
+        font-weight: bold;
+        }
+    .navbarindex .menuindex {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        }
+    .navbarindex .menuindex li {
+        margin: 0 15px;
+        }
+    .navbarindex .menuindex li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        }
+    .navbarindex .menuindex li a:hover {
+        text-decoration: underline;
+        }
+    .navbarindex .iconsindex {
+        display: flex;
+        align-items: center;
+        }
+    .navbarindex .iconsindex i {
+        color: white;
+        margin: 0 10px;
+        font-size: 18px;
+        }
+    .order-sectionindex {
+        text-align: center;
+        padding: 50px 20px;
+        background: #f8f9fa;
+        }
+    .order-sectionindex h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 36px;
+        margin-bottom: 20px;
+        }
+    .order-sectionindex p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        }
+    .order-sectionindex .stepsindex {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        }
+    .order-sectionindex .stepsindex .stepsindex {
+        margin: 0 20px;
+        text-align: center;
+        }
+    .order-sectionindex .stepsindex .stepindex i {
+        font-size: 40px;
+        color: #dc3545;
+        margin-bottom: 10px;
+        }
+
+/* untuk halaman contact */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .navbar .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+    .navbar .menu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .menu li {
+        margin: 0 15px;
+    }
+    .navbar .menu li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .navbar .menu li a:hover {
+        text-decoration: underline;
+    }
+    .header {
+        background: url('contact-header.jpg') no-repeat center center/cover;
+        height: 50px;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    .content {
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .content h2 {
+        font-family: 'Great Vibes', cursive;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .content p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .contact-info div {
+        margin: 0 20px;
+        text-align: center;
+    }
+    .contact-info i {
+        font-size: 30px;
+        color: #dc3545;
+        margin-bottom: 10px;
+    }
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+    }
+    .contact-form input, .contact-formc textarea {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #161616;
+        border-radius: 5px;
+    }
+    .contact-form button {
+        background: #dc3545;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .contact-form button:hover {
+        background: #c82333;
+    }
+
+/* untuk halaman menu */
+.menu-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+.menu-section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.menu-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-item {
+    background: rgba(0, 0, 0, 0.29);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.29);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-item h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+.menu-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.menu-item .price {
+    color: #dc3545;
+    font-size: 20px;
+}
+.menu-item .order-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.menu-item .order-btn:hover {
+    background-color: #218838;
+}
+
+/*untuk halaman pages */
+.pages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pages-list a {
+    background: #dc3545;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background 0.3s;
+}
+.pages-list a:hover {
+    background: #c82333;
+}
+
+/*untuk halaman about*/
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.team-member {
+    margin: 20px;
+    text-align: center;
+}
+.team-member img {
+    width: 350px; 
+    height: 350px; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 5px solid #000; 
+    box-sizing: border-box;
+}
+.team-member h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.team-member p {
+    font-size: 14px;
+    color: #666;
+}
+

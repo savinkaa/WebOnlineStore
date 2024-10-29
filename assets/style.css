@@ -83,30 +83,30 @@
         margin: 0 10px;
         font-size: 18px;
         }
-    .order-sectionindex {
+    .order-section {
         text-align: center;
         padding: 50px 20px;
         background: #f8f9fa;
         }
-    .order-sectionindex h2 {
+    .order-section h2 {
         font-family: 'Great Vibes', cursive;
         font-size: 36px;
         margin-bottom: 20px;
         }
-    .order-sectionindex p {
+    .order-section p {
         font-size: 16px;
         margin-bottom: 30px;
         }
-    .order-sectionindex .stepsindex {
+    .order-section .steps {
         display: flex;
         justify-content: center;
         margin-top: 30px;
         }
-    .order-sectionindex .stepsindex .stepsindex {
+    .order-section .steps .steps {
         margin: 0 20px;
         text-align: center;
         }
-    .order-sectionindex .stepsindex .stepindex i {
+    .order-section .steps .step i {
         font-size: 40px;
         color: #dc3545;
         margin-bottom: 10px;

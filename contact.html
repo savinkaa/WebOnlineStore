@@ -41,14 +41,14 @@
 
         <div class="contact-form">
             <h3>Contact Form</h3>
-            <form>
-                <input type="text" placeholder="Nama" required>
-                <input type="email" placeholder="Email" required>
-                <input type="text" placeholder="Subjek" required>
-                <textarea rows="5" placeholder="Pesan" required></textarea>
+            <form action="connection/submit_contact.php" method="POST">
+                <input type="text" name="name" placeholder="Nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subjek" required>
+                <textarea rows="5" name="message" placeholder="Pesan" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
-        </div>
+        </div>        
     </div>
 </body>
 <script>
